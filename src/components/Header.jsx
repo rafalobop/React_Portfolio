@@ -12,7 +12,7 @@ const Header = () => {
             <img className="header-img" src={Fondo} alt="fondo" />
           </div>
         </div>
-        <div className="col-lg-6 col-md-12 right">
+        <div className="col-6 right">
           <div className="main-info">
             <h1>Lobo Plaza Rafael</h1>
             <Typed

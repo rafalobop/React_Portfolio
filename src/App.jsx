@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Particles from 'react-particles-js';
 import Header from './components/Header';
 import './css/app.css';
-
+import About from './components/About';
 const App = () => {
   return (
     <div>
@@ -22,14 +22,12 @@ const App = () => {
                 },
               },
             },
-            color: {
-              Value: '#f00',
-            },
           }}
         />
         <Navbar />
         <Switch>{/* <Route exact path="/" component={Home} /> */}</Switch>
         <Header />
+        <About />
       </Router>
     </div>
   );
