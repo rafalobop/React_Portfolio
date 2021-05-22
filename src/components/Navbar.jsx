@@ -2,8 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/navbar.css';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/fontawesome-free';
-import { faBars } from '@fortawesome/fontawesome-free';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <FontAwesomeIcon icon={faBars} className="toggle-icon" />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">

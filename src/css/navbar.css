@@ -49,4 +49,12 @@
     background: #7d7de0;
     box-shadow: inset 7px 6px 5px #5454d6;
   }
+  .navbar-toggler {
+    border: none;
+    font-size: 20px;
+  }
+  .toggle-icon {
+    color: #eaeaa6;
+    border: #eaeaa6;
+  }
 }
