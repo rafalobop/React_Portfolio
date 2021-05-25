@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 { 
     "accordeon": 
     [
+=======
+{
+    "accordeon":[
+>>>>>>> 6dd0b98cb5061fdfa77e222131222c5d2a1bed23
     {
       "id": 1,
       "title": "¿Quien soy?",
@@ -16,5 +21,9 @@
       "title": "¿Que aspiraciones tengo?",
       "detalle": "Quiero insertarme al mercado laboral del mundo IT, ansioso de empezar, con muchisimas energias para aportar al equipo que me dé una oportunidad, y en donde pueda mostrar las ganas de aprender y de lograr mi trabajo de la mejor forma posible."
     }
+<<<<<<< HEAD
    ]
+=======
+    ]
+>>>>>>> 6dd0b98cb5061fdfa77e222131222c5d2a1bed23
 }
