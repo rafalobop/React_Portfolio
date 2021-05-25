@@ -1,7 +1,12 @@
 @media screen and (min-width: 310px) {
   .about-container {
-    margin-top: 150px;
-    background: #a6a6ea;
+    background: #a6a6e6;
+    padding: 2px 0;
+  }
+  .accordeon-container {
+    background: #a6a6a6;
+    padding: 2px 6px;
+    margin: 0px 20px;
   }
   .accordion {
     max-width: 80%;
@@ -73,9 +78,15 @@
     opacity: 1;
   }
   h1 {
+    color: #eaeaa6;
+    text-shadow: 5px 5px 4px #5454d6;
+    box-shadow: 1px 1px 5px #e9e9fa;
+    border-radius: 30px 0;
+    font-size: 35px;
+    padding: 10px;
     width: 250px;
     text-align: center;
-    margin: 100px auto 20px auto;
+    margin: 40px auto 20px auto;
   }
 }
 @media screen and (min-width: 460px) {
