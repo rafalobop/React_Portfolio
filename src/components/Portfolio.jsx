@@ -25,6 +25,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="portfolio-container">
+        <h1>Portfolio</h1>
         <div className="portfolio">
           {datosProyecto.map((elem) => {
             return (
@@ -36,12 +37,12 @@ const Portfolio = () => {
                   <img src={elem.imagen} alt={elem.title} />
                 </div>
                 <div className="portfolio-card-footer">
-                  <Link to="https://github.com/rafalobop/portafolio2">
+                  <a href={elem.repo}>
                     <button>Repositorio</button>
-                  </Link>
-                  <Link to={elem.link} target="_blank">
+                  </a>
+                  <a href={elem.link}>
                     <button>Ver sitio Web</button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             );
