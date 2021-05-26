@@ -26,35 +26,35 @@
       "link": "https://app.netlify.com/sites/rlpcalculator/overview"
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "sistema de mails",
       "imagen": "https://drive.google.com/file/d/1UuMySffS9DpD7XaGO26U7KrnJI_keNsQ/view?usp=sharing",
       "repo": "https://github.com/rafalobop/enviar_mail",
       "link": "https://enviarmails.netlify.app"
     },
     {
-      "id": 1,
+      "id": 3,
       "title": "administrador de citas",
       "imagen": "https://drive.google.com/file/d/1gMn5SVk34wAVM5WUt3-1FfiTMZqtzY4w/view?usp=sharing",
       "repo": "https://github.com/rafalobop/administradorCitas",
       "link": "https://administradorcitasjs.netlify.app"
     },
     {
-      "id": 1,
+      "id": 4,
       "title": "carrito de compras",
       "imagen": "https://drive.google.com/file/d/1c_loCIx3FZfS77umrHJ_x-g0WIPeB7_B/view?usp=sharing",
       "repo": "https://github.com/rafalobop/carrito-funcional",
       "link": "https://practicacarrito.netlify.app"
     },
     {
-      "id": 1,
+      "id": 5,
       "title": "proyecto rolling",
       "imagen": "https://drive.google.com/file/d/1lDaNiZ4szB2pr6i5kXric9DWuKw5S9hJ/view?usp=sharing",
       "repo": "https://github.com/rafalobop/pasteleriaRolling",
       "link": "https://tucucake.netlify.app/"
     },
     {
-      "id": 1,
+      "id": 6,
       "title": "proyecto rolling",
       "imagen": "https://drive.google.com/file/d/1gSkbdUu8tYEz3lC77PTFQKncZg12kDpN/view?usp=sharing",
       "repo": "https://github.com/rafalobop/proyecto_bootstrap",

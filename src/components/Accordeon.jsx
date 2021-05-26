@@ -15,8 +15,10 @@ const Accordeon = () => {
       });
     });
   }, []);
+  // console.log(datos);
 
   const datosInfo = datos.data.map((dato) => {
+    // console.log(dato);
     return dato;
   });
   return (
