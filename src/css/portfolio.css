@@ -1,6 +1,6 @@
 @media screen and (min-width: 310px) {
   .portfolio-container {
-    width: 80%;
+    width: 90%;
     padding: 6px;
     margin: 0px auto;
     background: #a6a6a6;
@@ -17,7 +17,7 @@
     margin: 10px 0;
     border-radius: 20px;
     box-shadow: 4px 4px 8px #0a0a0a, inset 10px 10px 8px #d1d1d1;
-    width: 90%;
+    width: 100%;
     padding: 5px;
   }
   .portfolio-card-header {
@@ -48,5 +48,17 @@
     background: #4c4c7c;
     color: #aaa;
     transition: 0.4s;
+  }
+  .portfolio:hover .portfolio-card {
+    filter: blur(5px);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  .portfolio .portfolio-card:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.3s;
   }
 }
