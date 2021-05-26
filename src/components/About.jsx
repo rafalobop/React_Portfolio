@@ -8,8 +8,8 @@ const About = () => {
       <h1>Acerca de mí</h1>
       <div className="accordeon-container">
         <Accordeon />
-        <Portfolio />
       </div>
+      <Portfolio />
     </div>
   );
 };

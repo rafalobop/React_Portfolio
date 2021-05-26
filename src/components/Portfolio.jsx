@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getProyect } from '../helpers/rutaDatos';
 import { Link } from 'react-router-dom';
+import '../css/portfolio.css';
 
 const Portfolio = () => {
   const [proyect, setProyect] = useState({
@@ -23,22 +24,22 @@ const Portfolio = () => {
   console.log(datosProyecto);
   return (
     <>
-      <div className="portfolio">
-        <div className="portfolio-container">
+      <div className="portfolio-container">
+        <div className="portfolio">
           {datosProyecto.map((elem) => {
             return (
-              <div className="card" key={elem.id}>
-                <div className="card-header">
+              <div className="portfolio-card" key={elem.id}>
+                <div className="portfolio-card-header">
                   <h3>{elem.title}</h3>
                 </div>
-                <div className="card-body">
+                <div className="portfolio-card-body">
                   <img src={elem.imagen} alt={elem.title} />
                 </div>
-                <div className="card-footer">
+                <div className="portfolio-card-footer">
                   <Link to="https://github.com/rafalobop/portafolio2">
                     <button>Repositorio</button>
                   </Link>
-                  <Link to={elem.link}>
+                  <Link to={elem.link} target="_blank">
                     <button>Ver sitio Web</button>
                   </Link>
                 </div>
