@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { getProyect } from '../helpers/rutaDatos';
-import { Link } from 'react-router-dom';
 import '../css/portfolio.css';
 
 const Portfolio = () => {

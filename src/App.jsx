@@ -7,6 +7,7 @@ import Particles from 'react-particles-js';
 import Header from './components/Header';
 import './css/app.css';
 import About from './components/About';
+import ContactForm from './components/ContactForm';
 const App = () => {
   return (
     <div>
@@ -28,6 +29,7 @@ const App = () => {
         <Switch>{/* <Route exact path="/" component={Home} /> */}</Switch>
         <Header />
         <About />
+        <ContactForm />
       </Router>
     </div>
   );

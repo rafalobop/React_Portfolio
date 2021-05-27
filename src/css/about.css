@@ -1,97 +1,96 @@
-@media screen and (min-width: 310px) {
-  .about-container {
-    background: #a6a6e6;
-    padding: 2px 0;
-    margin-top: 0px;
-  }
-
-  .accordeon-container {
-    background: #c6c6c6;
-    padding: 2px 6px;
-    margin: 40px;
-    border-radius: 20px;
-  }
-  .accordion {
-    max-width: 80%;
-    background: rgba(0, 0, 0, 0.1);
-    height: 400px;
-    margin: 20px auto;
-    display: flex;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
-    flex-direction: column;
-    cursor: pointer;
-    margin-bottom: 100px;
-  }
-
-  .box {
-    position: relative;
-    height: 100%;
-    flex: 1;
-    background-position: left;
-    background-size: cover;
-    transition: 0.7s;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
-  }
-  .box:hover {
-    flex: 7;
-    height: 700px;
-  }
-  .a1 {
-    background: url('../images/undraw_Questions_re_1fy7.svg') no-repeat;
-    z-index: 2;
-    background-size: 90%;
-    background-position: center;
-  }
-  .a2 {
-    background-image: url('../images/undraw_teaching_f1cm.svg');
-    z-index: 3;
-    background-size: 90%;
-    background-position: center;
-  }
-  .a3 {
-    background-image: url('../images/undraw_programming_2svr.svg');
-    z-index: 4;
-    color: #fff;
-    background-size: 90%;
-    background-position: center;
-  }
-
-  p,
-  h2 {
-    font-weight: normal;
-    font-family: Helvetica, Arial, sans-serif;
-    text-align: center;
-    background: rgba(165, 165, 204, 0.7);
-    color: #fff;
-    padding: 10px;
-    border-radius: 20px;
-    width: 100%;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  .text {
-    position: absolute;
-    bottom: 0;
-    opacity: 0;
-    width: 100%;
-    padding: 10px;
-  }
-  .box:hover .text {
-    opacity: 1;
-  }
-  h1 {
-    color: #eaeaa6;
-    text-shadow: 5px 5px 4px #5454d6;
-    box-shadow: 1px 1px 5px #e9e9fa;
-    border-radius: 30px 0;
-    font-size: 35px;
-    padding: 10px;
-    width: 250px;
-    text-align: center;
-    margin: 40px auto 20px auto;
-  }
+.about-container {
+  background: #a6a6e6;
+  padding: 2px 0;
+  margin-top: 0px;
 }
+
+.accordeon-container {
+  background: #c6c6c6;
+  padding: 2px 6px;
+  margin: 40px;
+  border-radius: 20px;
+}
+.accordion {
+  max-width: 80%;
+  background: rgba(0, 0, 0, 0.1);
+  height: 300px;
+  margin: 80px auto;
+  display: flex;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.box {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  background-position: left;
+  background-size: cover;
+  transition: 0.7s;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+}
+.box:hover {
+  flex: 7;
+  height: 700px;
+}
+.a1 {
+  background: url('../images/undraw_Questions_re_1fy7.svg') no-repeat;
+  z-index: 2;
+  background-size: 90%;
+  background-position: center;
+}
+.a2 {
+  background-image: url('../images/undraw_teaching_f1cm.svg');
+  z-index: 3;
+  background-size: 90%;
+  background-position: center;
+}
+.a3 {
+  background-image: url('../images/undraw_programming_2svr.svg');
+  z-index: 4;
+  color: #fff;
+  background-size: 90%;
+  background-position: center;
+}
+
+p,
+h2 {
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  background: rgba(165, 165, 204, 0.7);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+}
+h2 {
+  font-size: 20px;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  width: 100%;
+  padding: 10px;
+}
+.box:hover .text {
+  opacity: 1;
+}
+h1 {
+  color: #eaeaa6;
+  text-shadow: 5px 5px 4px #5454d6;
+  box-shadow: 1px 1px 5px #e9e9fa;
+  border-radius: 30px 0;
+  font-size: 35px;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  margin: 40px auto 20px auto;
+}
+
 @media screen and (min-width: 460px) {
   .about-container {
     margin-top: 0;
