@@ -60,5 +60,47 @@
       "repo": "https://github.com/rafalobop/proyecto_bootstrap",
       "link": "https://smart-tucuman.netlify.app"
     }
+  ],
+  "Tecnologias": [
+    {
+      "id": 1,
+      "name": "Html",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKrMluJOagc_Q-_PTfTYahHFFtgCsGsCDo_Qna-EQurzJ3l4yQsc0hdpz9d_5pFzKUSY&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "Css",
+      "image": "https://maxcdn.icons8.com/Share/icon/Logos//css31600.png"
+    },
+    {
+      "id": 3,
+      "name": "Javascript",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "image": "https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png"
+    },
+    {
+      "id": 5,
+      "name": "Bootstrap",
+      "image": "https://brandlogos.net/wp-content/uploads/2016/06/bootstrap-logo-vector-download.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Node",
+      "image": "https://c0.klipartz.com/pngpicture/1006/374/gratis-png-desarrollo-web-node-js-socket-io-javascript-red-socket-modernizacion-thumbnail.png"
+    },
+    {
+      "id": 7,
+      "name": "Git",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo4zcYPmQQB4wjzgSEP870mYga8NsdkO8BUtCHsWjU6-FAqNdm-u9EzRwZTOHug-RmyXc&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "name": "Mongo",
+      "image": "https://img1.freepng.es/20180802/cky/kisspng-mongodb-nosql-document-oriented-database-portable-thessalon%C3%ADki-mongodb-user-group-thessalon%C3%ADki-g-5b639f091e0a62.5515153815332554331231.jpg"
+    }
   ]
 }
