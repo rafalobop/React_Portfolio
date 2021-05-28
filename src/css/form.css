@@ -31,7 +31,7 @@ textarea {
   background: #e4e4e4;
   border: none;
 }
-button {
+.formButton {
   width: 30%;
   text-align: center;
   margin: 20px auto;
@@ -42,7 +42,7 @@ button {
   color: #fff;
   box-shadow: 2px 2px 4px #4c4c7c;
 }
-button:hover {
+.formButton:hover {
   background: #4c4c7c;
   color: #aaa;
   transition: 0.4s;

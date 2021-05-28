@@ -1,13 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import Home from './components/Home';
 import Particles from 'react-particles-js';
 import Header from './components/Header';
 import './css/app.css';
 import About from './components/About';
 import ContactForm from './components/ContactForm';
+import Portfolio from './components/Portfolio';
+
 const App = () => {
   return (
     <div>
@@ -26,7 +28,11 @@ const App = () => {
           }}
         />
         <Navbar />
-        <Switch>{/* <Route exact path="/" component={Home} /> */}</Switch>
+        <Switch>
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={ContactForm} />
+        </Switch>
         <Header />
         <About />
         <ContactForm />

@@ -4,7 +4,7 @@ import Accordeon from './Accordeon';
 import Portfolio from '../components/Portfolio';
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <h1>Acerca de mí</h1>
       <div className="accordeon-container">
         <Accordeon />
