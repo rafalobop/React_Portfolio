@@ -57,6 +57,9 @@ textarea:required {
   transition: 0.4s;
 }
 @media screen and (min-width: 992px) {
+  .form {
+    width: 70%;
+  }
   input {
     width: 50%;
   }
