@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/footer.css';
-import { Link } from 'react-router-dom';
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { Link, animateScroll as scroll } from 'react-scroll';
+import { FaGithub, FaWhatsapp, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <>
@@ -16,8 +16,8 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="http://instagram.com/rafalobop">
-                    <FaInstagram />
+                  <a href="http://wa.link/9cxpdj">
+                    <FaWhatsapp />
                   </a>
                 </li>
                 <li>
@@ -43,19 +43,69 @@ const Footer = () => {
             <div className="sites">
               <ul>
                 <li>
-                  <Link to="/">Inicio</Link>
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
+                    Inicio
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/about">Acerca de</Link>
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
+                    Acerca de
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/portfolio">Portfolio</Link>
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="portfolio"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
+                    Portfolio
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contacto</Link>
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
+                    Contacto
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/technologies">Tecnologias</Link>
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="tech"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
+                    Tecnologias
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -37,6 +37,7 @@
     border-radius: 30px;
     transition: 0.3s;
     background: #7d7de0;
+    cursor: pointer;
     box-shadow: inset 7px 6px 5px #5454d6;
   }
   .navbar-nav li .nav-link .active,

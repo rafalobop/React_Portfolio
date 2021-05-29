@@ -9,12 +9,16 @@ const Scroll = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (pageYOffset > 400) {
+    if (pageYOffset > 380) {
       setVisible(true);
     } else {
       setVisible(false);
     }
   }, [pageYOffset]);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   if (!visible) {
     return false;
@@ -22,7 +26,7 @@ const Scroll = () => {
 
   return (
     <>
-      <div className="scrollToTop">
+      <div className="scrollToTop" onClick={scrollToTop}>
         <FaAngleDoubleUp className="goTopIcon" />
       </div>
     </>

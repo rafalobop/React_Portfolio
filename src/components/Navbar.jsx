@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/navbar.css';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light nav-layout">
+      <nav
+        className="navbar navbar-expand-lg navbar-light nav-layout"
+        id="home"
+      >
         <button
           className="navbar-toggler"
           type="button"
@@ -29,22 +32,54 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/About">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
                 Acerca de
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Portfolio">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
                 Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Contact">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
                 Contacto
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link link-i" to="/Technologies">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="tech"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
                 Tecnologias
               </Link>
             </li>

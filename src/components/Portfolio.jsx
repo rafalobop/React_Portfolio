@@ -23,8 +23,8 @@ const Portfolio = () => {
   console.log(datosProyecto);
   return (
     <>
-      <h1>Portfolio</h1>
-      <div className="portfolio-container">
+      <div className="portfolio-container" id="portfolio">
+        <h1>Portfolio</h1>
         <div className="portfolio">
           {datosProyecto.map((elem) => {
             return (

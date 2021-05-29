@@ -23,7 +23,7 @@ const Technologies = () => {
 
   return (
     <>
-      <div className="tech-container">
+      <div className="tech-container" id="tech">
         <h1>Tecnologias</h1>
         <div className="tech">
           {datosTech.map((dato) => {
