@@ -5,11 +5,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Particles from 'react-particles-js';
 import Header from './components/Header';
 import './css/app.css';
-import About from './components/About';
-import ContactForm from './components/ContactForm';
+import Home from './pages/Home';
+import About from './pages/About';
+import ContactForm from './pages/ContactForm';
 import Portfolio from './components/Portfolio';
-import Technologies from './components/Technologies';
+import Technologies from './pages/Technologies';
 import Footer from './components/Footer';
+import Scroll from './components/Scroll';
 
 const App = () => {
   return (
@@ -29,17 +31,19 @@ const App = () => {
           }}
         />
         <Navbar />
-        <Switch>
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={ContactForm} />
-          <Route path="/technologies" component={Technologies} />
-        </Switch>
+        <Scroll />
         <Header />
         <About />
         <ContactForm />
         <Technologies />
         <Footer />
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="/About" component={About} />
+          <Route path="/Portfolio" component={Portfolio} />
+          <Route path="/Contact" component={ContactForm} />
+          <Route path="/Technologies" component={Technologies} />
+        </Switch>
       </Router>
     </>
   );

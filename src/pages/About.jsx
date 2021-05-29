@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/about.css';
-import Accordeon from './Accordeon';
+import Accordeon from '../components/Accordeon';
 import Portfolio from '../components/Portfolio';
 const About = () => {
   return (
