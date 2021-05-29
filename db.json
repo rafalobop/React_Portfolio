@@ -61,7 +61,11 @@
       "link": "https://smart-tucuman.netlify.app"
     }
   ],
+<<<<<<< HEAD
   "Tecnologias": [
+=======
+  "tecnologias": [
+>>>>>>> 3b629408b91bb496458b2fee746d6ffd1fb4ccfd
     {
       "id": 1,
       "name": "Html",
