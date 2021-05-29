@@ -6,8 +6,8 @@ const ContactForm = () => {
   return (
     <>
       <div className="contact">
+        <h1>Contacto</h1>
         <div className="form-container">
-          <h1>Contacto</h1>
           <Form />
         </div>
       </div>

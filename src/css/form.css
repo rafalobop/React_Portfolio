@@ -22,6 +22,9 @@ label {
   margin-top: 10px;
   font-size: 14px;
 }
+input {
+  width: 50%;
+}
 input,
 textarea {
   font-size: 14px;
@@ -30,6 +33,12 @@ textarea {
   box-shadow: inset -3px -3px 5px #000, inset 5px 5px 6px #fff;
   background: #e4e4e4;
   border: none;
+}
+input:invalid {
+  border: 1px dash red;
+}
+textarea:required {
+  border: 1px dash red;
 }
 .formButton {
   width: 30%;
@@ -46,4 +55,13 @@ textarea {
   background: #4c4c7c;
   color: #aaa;
   transition: 0.4s;
+}
+@media screen and (min-width: 992px) {
+  input,
+  textarea {
+    font-size: 20px;
+  }
+  .formButton {
+    font-size: 20px;
+  }
 }

@@ -25,12 +25,12 @@ const Navbar = () => {
           <ul className="navbar-nav mx-auto">
             <li className="nav-item active">
               <Link className="nav-link" to="/">
-                Home
+                Inicio
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/About">
-                About
+                Acerca de
               </Link>
             </li>
             <li className="nav-item">
@@ -40,12 +40,12 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/Contact">
-                Contact
+                Contacto
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link link-i" to="/">
-                Find Me
+              <Link className="nav-link link-i" to="/Technologies">
+                Technologias
               </Link>
             </li>
           </ul>

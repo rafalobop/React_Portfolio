@@ -2,13 +2,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import Home from './components/Home';
 import Particles from 'react-particles-js';
 import Header from './components/Header';
 import './css/app.css';
 import About from './components/About';
 import ContactForm from './components/ContactForm';
 import Portfolio from './components/Portfolio';
+import Technologies from './components/Technologies';
 
 const App = () => {
   return (
@@ -32,10 +32,12 @@ const App = () => {
           <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={ContactForm} />
+          <Route path="/technologies" component={Technologies} />
         </Switch>
         <Header />
         <About />
         <ContactForm />
+        <Technologies />
       </Router>
     </div>
   );

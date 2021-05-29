@@ -13,6 +13,15 @@ export const getProyect = async () => {
     'https://my-json-server.typicode.com/rafalobop/react_portfolio/db'
   );
   const { data } = res;
-  console.log(data.proyectos);
+  // console.log(data.proyectos);
   return data.proyectos;
+};
+
+export const getTech = async () => {
+  const res = await axios(
+    'https://my-json-server.typicode.com/rafalobop/react_portfolio/Tecnologias'
+  );
+  const { data } = res;
+
+  return data;
 };
