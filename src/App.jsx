@@ -9,10 +9,11 @@ import About from './components/About';
 import ContactForm from './components/ContactForm';
 import Portfolio from './components/Portfolio';
 import Technologies from './components/Technologies';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Router>
         <Particles
           params={{
@@ -38,8 +39,9 @@ const App = () => {
         <About />
         <ContactForm />
         <Technologies />
+        <Footer />
       </Router>
-    </div>
+    </>
   );
 };
 

@@ -24,7 +24,7 @@ const Technologies = () => {
   return (
     <>
       <div className="tech-container">
-        <h1>Technologias</h1>
+        <h1>Tecnologias</h1>
         <div className="tech">
           {datosTech.map((dato) => {
             return (
