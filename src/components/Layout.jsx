@@ -4,7 +4,6 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Scroll from './Scroll';
 import About from '../pages/About';
-import Portfolio from './Portfolio';
 import ContactForm from '../pages/ContactForm';
 import Technologies from '../pages/Technologies';
 import Footer from './Footer';
